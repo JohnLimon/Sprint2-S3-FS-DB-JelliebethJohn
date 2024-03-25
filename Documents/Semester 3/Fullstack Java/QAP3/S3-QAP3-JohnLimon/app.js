@@ -20,7 +20,7 @@ app.get('/', async (req, res) => {
     const books = await dal.getAllBooks();
     res.render('index.ejs', { books });
   } catch (error) {
-    // Handle error gracefully
+    //Handle error gracefully
     console.error('Error fetching books:', error);
     res.status(500).send('Internal Server Error');
   }
@@ -45,7 +45,7 @@ app.post('/books', async (req, res) => {
     await dal.createBook(title, author_id, genre_id, publication_year, isbn);
     res.redirect('/');
   } catch (error) {
-    // Handle error gracefully
+    //Handle error gracefully
     console.error('Error creating book:', error);
     res.status(500).send('Internal Server Error');
   }
@@ -96,7 +96,7 @@ app.post('/books', async (req, res) => {
     await dal.createBook(title, author_id, genre_id, publication_year, isbn);
     res.redirect('/');
   } catch (error) {
-    // Handle error gracefully
+    //Handle error gracefully
     console.error('Error creating book:', error);
     res.status(500).send('Internal Server Error');
   }
@@ -110,7 +110,7 @@ app.put('/books/:id', async (req, res) => {
     await dal.updateBook(bookId, title, author_id, genre_id, publication_year, isbn);
     res.redirect('/');
   } catch (error) {
-    // Handle error gracefully
+    //Handle error gracefully
     console.error('Error updating book:', error);
     res.status(500).send('Internal Server Error');
   }
@@ -124,7 +124,7 @@ app.patch('/books/:id', async (req, res) => {
     await dal.partiallyUpdateBook(bookId, title, author_id, genre_id, publication_year, isbn);
     res.redirect('/');
   } catch (error) {
-    // Handle error gracefully
+    //Handle error gracefully
     console.error('Error partially updating book:', error);
     res.status(500).send('Internal Server Error');
   }
