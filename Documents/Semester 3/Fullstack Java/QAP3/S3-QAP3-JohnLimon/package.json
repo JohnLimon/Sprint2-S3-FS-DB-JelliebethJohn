@@ -1,0 +1,12 @@
+{
+  "name": "s3-qap3-johnlimon",
+  "version": "1.0.0",
+  "description": "S3 QAP3 FullStack-Database",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
