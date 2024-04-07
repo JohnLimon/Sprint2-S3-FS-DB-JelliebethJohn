@@ -1,0 +1,111 @@
+create table computers (
+	id INT,
+	cpu VARCHAR(13),
+	gpu VARCHAR(29),
+	ram VARCHAR(5),
+	hard_drive VARCHAR(5),
+	ssd VARCHAR(21),
+	motherboard VARCHAR(35),
+	cpu_cooler VARCHAR(50)
+);
+
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (38, 'Intel Core i7', 'AMD Radeon RX 560', '64GB', '2TB', '120GB', 'MSI B450 Tomahawk', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (85, 'Intel Core i3', 'NVIDIA GeForce GTX 1070', '64GB', '8TB', '500GB', 'MSI MPG X570 Gaming Plus', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (82, 'AMD Ryzen 5', 'NVIDIA GeForce GTX 1070', '32GB', '8TB', '500GB', 'Gigabyte Z390 AORUS Pro', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (55, 'Intel Core i3', 'AMD Radeon RX 560', '4GB', '2TB', '1TB', 'MSI MPG X570 Gaming Plus', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (6, 'AMD Ryzen 5', 'NVIDIA GeForce GTX 1050', '64GB', '8TB', '240GB', 'MSI B450 Tomahawk', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (15, 'AMD Ryzen 5', 'AMD Radeon RX 580', '64GB', '8TB', '1TB', 'ASRock B450M Pro4', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (19, 'AMD Ryzen 5', 'AMD Radeon RX 560', '64GB', '4TB', '1TB', 'MSI B450 Tomahawk', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (70, 'Intel Core i3', 'AMD Radeon RX 580', '4GB', '1TB', '1TB', 'MSI MPG X570 Gaming Plus', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (29, 'Intel Core i5', 'AMD Radeon RX 580', '8GB', '1TB', '240GB', 'ASUS Prime X470-Pro', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (89, 'Intel Core i5', 'NVIDIA GeForce GTX 1060', '32GB', '1TB', '120GB', 'ASUS ROG Strix Z390-E', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (21, 'Intel Core i5', 'AMD Radeon RX 570', '32GB', '4TB', '2TB', 'MSI MPG X570 Gaming Plus', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (41, 'AMD Ryzen 7', 'AMD Radeon RX 570', '8GB', '8TB', '120GB', 'ASRock B450M Pro4', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (88, 'AMD Ryzen 7', 'NVIDIA GeForce GTX 1050', '4GB', '2TB', '2TB', 'MSI B450 Tomahawk', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (97, 'AMD Ryzen 5', 'AMD Radeon RX 580', '32GB', '8TB', '500GB', 'Gigabyte Z390 AORUS Pro', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (59, 'Intel Core i5', 'AMD Radeon RX 570', '16GB', '500GB', '500GB', 'ASUS Prime X470-Pro', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (38, 'AMD Ryzen 3', 'NVIDIA GeForce GTX 1060', '4GB', '500GB', '1TB', 'ASUS ROG Strix Z390-E', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (93, 'AMD Ryzen 5', 'AMD Radeon RX 570', '4GB', '8TB', '1TB', 'ASUS ROG Strix Z390-E', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (78, 'AMD Ryzen 3', 'AMD Radeon RX 560', '32GB', '500GB', '120GB', 'MSI MPG X570 Gaming Plus', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (73, 'AMD Ryzen 5', 'AMD Radeon RX 580', '32GB', '4TB', '240GB', 'Gigabyte Z390 AORUS Pro', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (60, 'AMD Ryzen 7', 'NVIDIA GeForce GTX 1060', '64GB', '500GB', '120GB', 'MSI B450 Tomahawk', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (50, 'AMD Ryzen 7', 'NVIDIA GeForce GTX 1050', '4GB', '8TB', '240GB', 'MSI B450 Tomahawk', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (32, 'AMD Ryzen 7', 'NVIDIA GeForce GTX 1060', '16GB', '4TB', '500GB', 'ASRock B450M Pro4', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (36, 'AMD Ryzen 5', 'NVIDIA GeForce GTX 1060', '32GB', '2TB', '500GB', 'MSI MPG X570 Gaming Plus', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (15, 'AMD Ryzen 7', 'AMD Radeon RX 560', '32GB', '2TB', '500GB', 'Gigabyte Z390 AORUS Pro', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (88, 'Intel Core i7', 'AMD Radeon RX 560', '32GB', '1TB', '2TB', 'MSI MPG X570 Gaming Plus', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (55, 'AMD Ryzen 7', 'AMD Radeon RX 570', '64GB', '2TB', '1TB', 'MSI B450 Tomahawk', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (27, 'AMD Ryzen 3', 'AMD Radeon RX 570', '16GB', '500GB', '2TB', 'Gigabyte Z390 AORUS Pro', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (36, 'AMD Ryzen 7', 'NVIDIA GeForce GTX 1060', '4GB', '2TB', '240GB', 'ASUS Prime X470-Pro', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (66, 'Intel Core i7', 'AMD Radeon RX 570', '64GB', '4TB', '1TB', 'MSI MPG X570 Gaming Plus', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (83, 'AMD Ryzen 5', 'AMD Radeon RX 580', '4GB', '2TB', '120GB', 'MSI MPG X570 Gaming Plus', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (66, 'Intel Core i7', 'AMD Radeon RX 580', '4GB', '2TB', '500GB', 'MSI B450 Tomahawk', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (83, 'AMD Ryzen 7', 'NVIDIA GeForce GTX 1070', '4GB', '8TB', '500GB', 'Gigabyte Z390 AORUS Pro', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (67, 'AMD Ryzen 5', 'AMD Radeon RX 580', '32GB', '4TB', '2TB', 'ASUS ROG Strix Z390-E', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (3, 'Intel Core i7', 'NVIDIA GeForce GTX 1050', '4GB', '8TB', '120GB', 'Gigabyte Z390 AORUS Pro', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (43, 'AMD Ryzen 3', 'AMD Radeon RX 580', '64GB', '500GB', '2TB', 'ASUS ROG Strix Z390-E', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (90, 'AMD Ryzen 7', 'NVIDIA GeForce GTX 1050', '16GB', '500GB', '240GB', 'ASUS ROG Strix Z390-E', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (25, 'AMD Ryzen 3', 'AMD Radeon RX 580', '4GB', '4TB', '120GB', 'ASUS Prime X470-Pro', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (14, 'AMD Ryzen 7', 'AMD Radeon RX 580', '16GB', '500GB', '240GB', 'ASUS ROG Strix Z390-E', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (30, 'Intel Core i7', 'NVIDIA GeForce GTX 1050', '64GB', '8TB', '2TB', 'ASRock B450M Pro4', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (60, 'Intel Core i3', 'NVIDIA GeForce GTX 1050', '4GB', '4TB', '1TB', 'Gigabyte Z390 AORUS Pro', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (24, 'AMD Ryzen 5', 'AMD Radeon RX 580', '4GB', '8TB', '2TB', 'MSI MPG X570 Gaming Plus', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (100, 'Intel Core i5', 'AMD Radeon RX 580', '8GB', '8TB', '120GB', 'MSI MPG X570 Gaming Plus', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (58, 'AMD Ryzen 3', 'NVIDIA GeForce GTX 1070', '64GB', '8TB', '1TB', 'MSI MPG X570 Gaming Plus', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (76, 'AMD Ryzen 3', 'NVIDIA GeForce GTX 1050', '64GB', '8TB', '120GB', 'MSI B450 Tomahawk', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (75, 'Intel Core i5', 'NVIDIA GeForce GTX 1060', '16GB', '2TB', '500GB', 'MSI B450 Tomahawk', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (49, 'AMD Ryzen 5', 'NVIDIA GeForce GTX 1070', '32GB', '4TB', '120GB', 'ASUS Prime X470-Pro', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (21, 'AMD Ryzen 5', 'AMD Radeon RX 570', '16GB', '1TB', '240GB', 'MSI B450 Tomahawk', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (44, 'Intel Core i7', 'NVIDIA GeForce GTX 1050', '64GB', '2TB', '1TB', 'ASUS Prime X470-Pro', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (96, 'AMD Ryzen 5', 'NVIDIA GeForce GTX 1060', '4GB', '2TB', '240GB', 'MSI B450 Tomahawk', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (28, 'Intel Core i7', 'NVIDIA GeForce GTX 1060', '64GB', '2TB', '240GB', 'ASUS ROG Strix Z390-E', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (26, 'Intel Core i3', 'AMD Radeon RX 580', '32GB', '4TB', '500GB', 'ASUS ROG Strix Z390-E', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (17, 'Intel Core i5', 'AMD Radeon RX 570', '4GB', '2TB', '1TB', 'MSI MPG X570 Gaming Plus', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (56, 'Intel Core i5', 'AMD Radeon RX 570', '16GB', '500GB', '1TB', 'ASUS Prime X470-Pro', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (92, 'Intel Core i7', 'NVIDIA GeForce GTX 1070', '4GB', '2TB', '240GB', 'ASUS ROG Strix Z390-E', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (87, 'AMD Ryzen 7', 'NVIDIA GeForce GTX 1060', '8GB', '4TB', '120GB', 'ASUS Prime X470-Pro', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (85, 'AMD Ryzen 3', 'NVIDIA GeForce GTX 1050', '8GB', '2TB', '120GB', 'ASUS Prime X470-Pro', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (63, 'Intel Core i3', 'NVIDIA GeForce GTX 1050', '64GB', '8TB', '500GB', 'Gigabyte Z390 AORUS Pro', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (35, 'Intel Core i5', 'NVIDIA GeForce GTX 1070', '64GB', '4TB', '2TB', 'MSI B450 Tomahawk', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (83, 'Intel Core i7', 'AMD Radeon RX 560', '4GB', '8TB', '240GB', 'ASUS ROG Strix Z390-E', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (30, 'AMD Ryzen 5', 'AMD Radeon RX 560', '64GB', '8TB', '120GB', 'MSI MPG X570 Gaming Plus', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (27, 'AMD Ryzen 5', 'NVIDIA GeForce GTX 1070', '8GB', '1TB', '120GB', 'ASUS Prime X470-Pro', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (91, 'AMD Ryzen 3', 'AMD Radeon RX 580', '4GB', '2TB', '1TB', 'ASUS Prime X470-Pro', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (41, 'Intel Core i7', 'AMD Radeon RX 580', '64GB', '2TB', '2TB', 'Gigabyte Z390 AORUS Pro', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (32, 'AMD Ryzen 5', 'AMD Radeon RX 570', '8GB', '8TB', '500GB', 'Gigabyte Z390 AORUS Pro', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (38, 'AMD Ryzen 3', 'NVIDIA GeForce GTX 1050', '32GB', '2TB', '2TB', 'Gigabyte Z390 AORUS Pro', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (34, 'AMD Ryzen 7', 'NVIDIA GeForce GTX 1060', '4GB', '1TB', '120GB', 'MSI MPG X570 Gaming Plus', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (27, 'AMD Ryzen 5', 'NVIDIA GeForce GTX 1060', '16GB', '500GB', '120GB', 'ASUS ROG Strix Z390-E', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (81, 'AMD Ryzen 3', 'NVIDIA GeForce GTX 1050', '32GB', '500GB', '2TB', 'ASRock B450M Pro4', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (91, 'AMD Ryzen 5', 'AMD Radeon RX 580', '16GB', '8TB', '1TB', 'ASUS Prime X470-Pro', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (52, 'Intel Core i5', 'AMD Radeon RX 570', '16GB', '2TB', '2TB', 'ASRock B450M Pro4', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (22, 'AMD Ryzen 3', 'NVIDIA GeForce GTX 1050', '8GB', '500GB', '240GB', 'ASUS Prime X470-Pro', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (4, 'Intel Core i7', 'NVIDIA GeForce GTX 1070', '64GB', '8TB', '120GB', 'MSI MPG X570 Gaming Plus', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (21, 'Intel Core i5', 'AMD Radeon RX 580', '16GB', '2TB', '1TB', 'ASRock B450M Pro4', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (60, 'AMD Ryzen 3', 'AMD Radeon RX 570', '8GB', '8TB', '500GB', 'ASRock B450M Pro4', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (85, 'AMD Ryzen 5', 'AMD Radeon RX 570', '64GB', '500GB', '240GB', 'ASRock B450M Pro4', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (46, 'AMD Ryzen 5', 'AMD Radeon RX 580', '32GB', '2TB', '120GB', 'MSI B450 Tomahawk', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (48, 'AMD Ryzen 7', 'NVIDIA GeForce GTX 1050', '64GB', '500GB', '500GB', 'MSI MPG X570 Gaming Plus', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (38, 'Intel Core i7', 'AMD Radeon RX 570', '4GB', '8TB', '120GB', 'ASUS ROG Strix Z390-E', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (72, 'AMD Ryzen 5', 'AMD Radeon RX 580', '8GB', '4TB', '240GB', 'ASUS ROG Strix Z390-E', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (74, 'AMD Ryzen 3', 'AMD Radeon RX 560', '64GB', '8TB', '240GB', 'ASUS Prime X470-Pro', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (7, 'AMD Ryzen 5', 'NVIDIA GeForce GTX 1070', '32GB', '1TB', '240GB', 'Gigabyte Z390 AORUS Pro', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (61, 'AMD Ryzen 5', 'AMD Radeon RX 560', '4GB', '4TB', '500GB', 'MSI MPG X570 Gaming Plus', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (76, 'Intel Core i7', 'AMD Radeon RX 560', '4GB', '4TB', '1TB', 'MSI B450 Tomahawk', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (4, 'Intel Core i7', 'NVIDIA GeForce GTX 1060', '32GB', '4TB', '120GB', 'MSI MPG X570 Gaming Plus', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (58, 'AMD Ryzen 3', 'AMD Radeon RX 570', '64GB', '8TB', '120GB', 'ASRock B450M Pro4', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (51, 'Intel Core i5', 'NVIDIA GeForce GTX 1060', '4GB', '8TB', '120GB', 'ASUS Prime X470-Pro', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (82, 'AMD Ryzen 7', 'NVIDIA GeForce GTX 1070', '8GB', '8TB', '1TB', 'Gigabyte Z390 AORUS Pro', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (82, 'AMD Ryzen 7', 'NVIDIA GeForce GTX 1060', '64GB', '8TB', '2TB', 'ASUS ROG Strix Z390-E', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (100, 'Intel Core i5', 'AMD Radeon RX 570', '8GB', '500GB', '120GB', 'ASUS Prime X470-Pro', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (58, 'AMD Ryzen 5', 'NVIDIA GeForce GTX 1060', '4GB', '4TB', '500GB', 'MSI MPG X570 Gaming Plus', 'Cooler Master Hyper 212 EVO');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (85, 'Intel Core i3', 'AMD Radeon RX 580', '32GB', '2TB', '1TB', 'ASUS ROG Strix Z390-E', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (71, 'Intel Core i3', 'AMD Radeon RX 560', '4GB', '1TB', '1TB', 'ASUS Prime X470-Pro', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (17, 'Intel Core i5', 'NVIDIA GeForce GTX 1060', '64GB', '500GB', '120GB', 'Gigabyte Z390 AORUS Pro', 'be quiet! Dark Rock Pro 4');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (6, 'AMD Ryzen 3', 'NVIDIA GeForce GTX 1050', '64GB', '500GB', '500GB', 'Gigabyte Z390 AORUS Pro', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (92, 'AMD Ryzen 3', 'NVIDIA GeForce GTX 1060', '8GB', '2TB', '2TB', 'MSI B450 Tomahawk', 'Corsair H100i RGB Platinum');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (53, 'Intel Core i5', 'NVIDIA GeForce GTX 1050', '16GB', '1TB', '240GB', 'ASUS Prime X470-Pro', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (18, 'Intel Core i3', 'AMD Radeon RX 560', '8GB', '2TB', '2TB', 'MSI B450 Tomahawk', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (21, 'AMD Ryzen 3', 'AMD Radeon RX 570', '16GB', '4TB', '1TB', 'MSI B450 Tomahawk', 'Noctua NH-D15');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (48, 'AMD Ryzen 7', 'AMD Radeon RX 560', '32GB', '500GB', '240GB', 'ASUS ROG Strix Z390-E', 'NZXT Kraken X62');
+insert into computers (id, cpu, gpu, ram, hard_drive, ssd, motherboard, cpu_cooler) values (3, 'AMD Ryzen 5', 'AMD Radeon RX 560', '64GB', '2TB', '1TB', 'Gigabyte Z390 AORUS Pro', 'NZXT Kraken X62');
