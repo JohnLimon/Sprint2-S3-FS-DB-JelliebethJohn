@@ -1,2 +1,2 @@
-# S3-QAP3-JohnLimon
-S3 QAP3 FullStack-Database 
+# Sprint2-S3-FS-DB-JelliebethJohn
+S3 Final Sprint FullStack and Database Combined. A secure search engine using Node.js with data that is stored in PostgreSQL and MongoDB.

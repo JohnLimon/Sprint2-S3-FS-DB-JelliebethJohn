@@ -1,17 +1,17 @@
 <div class="navContainer">
     <nav>
-        <a href="/">home</a>
-        <a href="/about">about</a>
-        <a href="/register">register</a>
+        <a href="/">Home</a>
+        <a href="/about">About</a>
+        <a href="/register">Register</a>
 
         <% if (!user || !user.username) { %>
             <!-- Show the "login" link only if no user is signed in -->
-            <a href="/login">login</a>
+            <a href="/login">Login</a>
         <% } else { %>
-            <a href="/search">search</a>
+            <a href="/search">Search</a>
         <% } %>
 
-        <% if (user && user.username == "NatLane2002") { %>
+        <% if (user && user.username == "JelliebethJohn") { %>
             <!-- Show the "admin" link only if a user is signed in as admin -->
             <a href="/admin">admin</a>
         <% } %>
