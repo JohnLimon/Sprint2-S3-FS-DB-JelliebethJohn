@@ -1,0 +1,18 @@
+{
+  "name": "sprint2-s3-fs-db-jelliebethjohn",
+  "version": "1.0.0",
+  "description": "S3 Final Sprint FullStack and Database Combined. A secure search engine using Node.js with data that is stored in PostgreSQL and MongoDB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.9",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.1",
+    "pg": "^8.11.5"
+  }
+}
