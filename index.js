@@ -2,6 +2,7 @@ const express = require('express');
 const session = require('express-session');
 const methodOverride = require('method-override');
 const app = express();
+const ejs = require('ejs');
 const PORT = 3000;
 require('dotenv').config();
 
